@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+
+# Secretos y entorno
+.env
+.env.local
+
+# Archivos de prueba cifrados/descifrados
+*.enc
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
